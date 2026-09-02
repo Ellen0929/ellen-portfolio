@@ -1,0 +1,45 @@
+.experience {
+    padding: 6rem 8%;
+    background: #11111b;
+}
+
+.experience-content {
+    max-width: 1000px;
+}
+
+.section-label {
+    color: #c084fc;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+}
+
+.experience-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #27273a;
+}
+
+.experience-area {
+    color: #ec4899;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0.5rem 0 0.8rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+p {
+    color: #b3b3c2;
+    line-height: 1.8;
+    margin: 0;
+}
