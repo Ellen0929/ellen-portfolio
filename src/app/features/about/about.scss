@@ -1,0 +1,29 @@
+.about {
+    padding: 6rem 8%;
+    background: #11111b;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
+.section-label {
+    color: #c084fc;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+p {
+    color: #b3b3c2;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
