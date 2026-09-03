@@ -46,3 +46,11 @@ p {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 4rem 6%;
+        min-height: calc(100svh - 64px);
+        box-sizing: border-box;
+    }
+}

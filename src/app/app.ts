@@ -6,9 +6,19 @@ import { Experience } from './features/experience/experience';
 import { Certifications } from './features/certifications/certifications';
 import { Projects } from './features/projects/projects';
 import { Contact } from './features/contact/contact';
+import { Header } from './shared/header/header';
 
 @Component({
-  imports: [Home, About, TechStack, Experience, Certifications, Projects, Contact],
+  imports: [
+    Header,
+    Home,
+    About,
+    TechStack,
+    Experience,
+    Certifications,
+    Projects,
+    Contact
+  ],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
