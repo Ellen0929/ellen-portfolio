@@ -47,3 +47,9 @@ h2 {
         margin: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .certifications {
+        padding: 4rem 6%;
+    }
+}

@@ -1,0 +1,15 @@
+<header class="header">
+    <a class="logo" href="#home">Ellen Nascimento</a>
+
+    <nav class="nav" [class.open]="menuOpen">
+        <a href="#about" (click)="closeMenu()">Sobre</a>
+        <a href="#tech-stack" (click)="closeMenu()">Tecnologias</a>
+        <a href="#experience" (click)="closeMenu()">Experiência</a>
+        <a href="#certifications" (click)="closeMenu()">Certificações</a>
+        <a href="#projects" (click)="closeMenu()">Projetos</a>
+        <a href="#contact" (click)="closeMenu()">Contato</a>
+    </nav>
+    <button class="menu-toggle" (click)="toggleMenu()" [attr.aria-label]="menuOpen ? 'Fechar menu' : 'Abrir menu'">
+        {{ menuOpen ? '✕' : '☰' }}
+    </button>
+</header>
