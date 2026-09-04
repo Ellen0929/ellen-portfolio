@@ -1,12 +1,26 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { Home } from './features/home/home';
+import { About } from './features/about/about';
+import { TechStack } from './features/tech-stack/tech-stack';
+import { Experience } from './features/experience/experience';
+import { Certifications } from './features/certifications/certifications';
+import { Projects } from './features/projects/projects';
+import { Contact } from './features/contact/contact';
+import { Header } from './shared/header/header';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [
+    Header,
+    Home,
+    About,
+    TechStack,
+    Experience,
+    Certifications,
+    Projects,
+    Contact
+  ],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
 })
-export class App {
-  protected readonly title = signal('ellen-portfolio');
-}
+export class App { }

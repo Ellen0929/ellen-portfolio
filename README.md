@@ -1,59 +1,66 @@
-# EllenPortfolio
+# Ellen Nascimento | Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.5.
+Portfólio profissional desenvolvido para apresentar minha trajetória, projetos, tecnologias e experiência como desenvolvedora.
 
-## Development server
+O projeto foi construído com **Angular e TypeScript**, com foco em responsividade, acessibilidade, organização de componentes e uma interface moderna.
 
-To start a local development server, run:
+## Sobre o projeto
 
-```bash
-ng serve
-```
+Este portfólio reúne informações sobre minha atuação em desenvolvimento Back-end e minha evolução para Full Stack, além de projetos desenvolvidos com tecnologias como Java, Spring Boot, Angular, PostgreSQL e AWS.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A interface foi desenvolvida com uma identidade visual dark e elementos tecnológicos sutis, mantendo o foco em uma experiência simples, responsiva e profissional.
 
-## Code scaffolding
+## Tecnologias
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Este projeto foi desenvolvido utilizando:
 
-```bash
-ng generate component component-name
-```
+- Angular
+- TypeScript
+- HTML
+- SCSS
+- Git e GitHub
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Funcionalidades
 
-```bash
-ng generate --help
-```
+- Navegação entre as seções do portfólio
+- Menu responsivo para dispositivos móveis
+- Layout responsivo para desktop e mobile
+- Apresentação de experiência profissional e formação
+- Tech Stack com identificação visual das tecnologias
+- Cards para apresentação dos principais projetos
+- Links para GitHub e LinkedIn
+- Navegação com foco em acessibilidade
+- Suporte à preferência de redução de movimento
+- Identidade visual personalizada
 
-## Building
+## Estrutura do portfólio
 
-To build the project run:
+O portfólio está organizado nas seguintes seções:
 
-```bash
-ng build
-```
+- Home
+- Sobre mim
+- Tech Stack
+- Experiência
+- Certificações e formação
+- Projetos
+- Contato
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Projetos em destaque
 
-## Running unit tests
+### FinSphere
+Aplicação Full Stack para gestão financeira, desenvolvida com Java, Spring Boot, Angular, PostgreSQL e APIs REST.
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+[Ver repositório do FinSphere](https://github.com/Ellen0929/finSphere)
 
-```bash
-ng test
-```
+### FinVoice
+API financeira inteligente desenvolvida com Java, Spring Boot e Spring AI, com interpretação de comandos em texto e voz, Tool Calling e modelos de IA locais.
 
-## Running end-to-end tests
+[Ver repositório do FinVoice](https://github.com/Ellen0929/finVoice-api)
 
-For end-to-end (e2e) testing, run:
+## Contato
 
-```bash
-ng e2e
-```
+**Ellen Nascimento**  
+Java Developer | Full Stack
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- LinkedIn: [ellen-nascimento-tech](https://www.linkedin.com/in/ellen-nascimento-tech)
+- GitHub: [Ellen0929](https://github.com/Ellen0929)

@@ -1,0 +1,49 @@
+.tech-stack {
+    padding: 6rem 8%;
+    background: #0b0b14;
+}
+
+.tech-content {
+    max-width: 1100px;
+}
+
+.section-label {
+    color: #c084fc;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+}
+
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    span {
+        padding: 0.8rem 1.2rem;
+        border: 1px solid #27273a;
+        border-radius: 8px;
+        background: #11111b;
+        color: #d1d5db;
+        transition: 0.3s ease;
+
+        &:hover {
+            border-color: #8b5cf6;
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-stack {
+        padding: 4rem 6%;
+    }
+}
